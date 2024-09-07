@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700');
+
+@import url('https://fonts.googleapis.com/css?family=Meddon');
+
+body {
+    font-family: "Muli";
+}
+
+.title {
+    font-family: "Meddon";
+    font-size: 4em;
+}
+
+h1 {
+    font-family: "Meddon";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.paral {
+    min-height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+hr {
+    background-color: #fff;
+}
+
+.paralsec {
+    background-image: url("https://i.pinimg.com/736x/dd/3f/26/dd3f26fc2b53e05300212951c70b26ec.jpg");
+    height: 600px;
+}
+
+.desc {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.title2 {
+    font-family: "Muli";
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.paralsec1 {
+    background-image: url("https://i.pinimg.com/736x/2e/0a/07/2e0a07cdbac17105f332d3f2e834112d.jpg");
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.thumb {
+    width: 75%;
+    height: auto;
+    border: 1px solid transparent;
+    outline: 1px solid #fff;
+    outline-offset: -10px;
+    display: block;
+    margin: auto;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 50px;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 3px;
+    border: none;
+    padding: 10px;
+    transition: all .3s ease-in;
+    width: 150px;
+    height: 75px;
+    font-size: 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.bounce-up .jumbotron {
+    opacity: 0;
+    -moz-transition: all 700ms ease-out;
+    -webkit-transition: all 700ms ease-out;
+    -o-transition: all 700ms ease-out;
+    transition: all 700ms ease-out;
+    -moz-transform: translate3d(0px, 200px, 0px);
+    -webkit-transform: translate3d(0px, 200px, 0px);
+    -o-transform: translate(0px, 200px);
+    -ms-transform: translate(0px, 200px);
+    transform: translate3d(0px, 200px, 0px);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.bounce-up.in-view .jumbotron {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+}
+/* Estilos generales */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #BDC3C7;
+    font-family: 'Raleway';
+}
+
+/* Estilos para la pestaña RSVP */
+.top {
+    background-color: #264356;
+    height: 200px;
+    margin:0;
+    padding:0;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
+}
+
+.form {
+    height: 590px;
+    width: 400px;
+    background-color: #fff;
+    margin: -110px auto;
+    border-radius: 10px;
+    color: #666;
+    padding: 0px 0px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
+}
+
+.info {
+    padding: 10px;
+}
+
+h1, h2, p {
+    text-align: center;
+    padding: 0px;
+    margin: 5px 5px;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 100;
+}
+
+p.line {
+    margin: 0px auto 20px auto;
+    color: #999;
+}
+
+.form input {
+    font-size: 15px;
+    color: #666;
+    padding: 6px;
+    margin: 25px auto 20px;
+    display: block;
+    width: 75%;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.button button {
+    display: inline-block;
+    width: 400px;
+}
+
+button {
+    color: #666;
+    background-color: #ffbdc7;
+    border: none;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 32px;
+    width: 200px;
+    margin: 20px auto 0px auto;
+    float:left;
+}
+
+#rsvpButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+button.accept {
+    border-radius: 0px 0px 0px 10px;
+    border-right: solid 1px #cc919a;
+}
+
+button.regret {
+    border-radius: 0px 0px 10px 0px;
+}
+
+button:hover {
+    background-color: #cc919a;
+    transition: .5s;
+}
+
+button:focus {
+    outline: 0;
+}
+
+/* Estilo para mostrar y centrar la pestaña RSVP */
+.form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
